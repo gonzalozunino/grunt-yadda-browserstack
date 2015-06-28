@@ -46,8 +46,8 @@ files.each(function(file) {
                 var capabilities = {
                     'browserstack.local': 'true',
                     'browserName': 'firefox',
-                    'browserstack.user': 'juanpablo48',
-                    'browserstack.key': 'BfBVyjkCGFHSjVcyNs35'
+                    'browserstack.user': '',
+                    'browserstack.key': ''
                 };
 
                 driver = new webdriver.Builder().
