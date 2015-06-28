@@ -5,11 +5,11 @@ Installing
 ----------
 Make sure you have node, npm and git installed:
 
-`$ sudo npm -g install grunt-cli`
-`$ npm install`
-`$ grunt bower:install`
+* `$ npm -g install grunt-cli`
+* `$ npm install`
+* `$ grunt bower:install`
 
 Developing
 -----------
 To start yout development server:
-`$ grunt`
+* `$ grunt`
