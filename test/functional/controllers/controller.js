@@ -11,7 +11,11 @@ function Controller(driver) {
 _.extend(Controller.prototype, {
 
     goToPage: function() {
-        this.driver.get("http://www.google.com");
+        this.driver.get("http://www.google.com.ar");
+    },
+    
+    sendValuesToElement: function(searchKey) {
+        this.driver.findElement(By.id("lst-ib")).sendKeys(searchKey);
     },
 
     triggerClick: function(selector) {
